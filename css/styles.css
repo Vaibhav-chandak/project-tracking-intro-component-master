@@ -97,32 +97,27 @@ hr {
 
 .btn {
   margin: 5%;
+  margin-right: 5px;
 }
 
 .attribution {
   margin: 3%
 }
 
-/* `Med`ia Queries */
+/* Media Queries */
 @media only screen and (min-width: 900px) {
-  ul {
-    text-align: right;
-    margin: auto;
-    margin-right: 0;
+  .navbar-link {
+    padding-right: 3rem; 
   }
 
-.navbar-brand {
-  padding-left: 5%;
-}
+  .navbar-brand {
+    padding-left: 5%;
+  }
 
   .collapse {
     background-color: inherit;
     position: static;
     box-shadow: none;
-  }
-
-  .navbar-item {
-    padding-right: 15%;
   }
 
   .row {
